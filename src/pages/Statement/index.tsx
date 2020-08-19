@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 import PageHeader from '../../components/PageHeader'
-import InputRadio, { Question } from '../../components/InputRadio'
-import InputTextArea from '../../components/InputTextArea'
+
 
 import './styles.css'
 import { Link } from 'react-router-dom'

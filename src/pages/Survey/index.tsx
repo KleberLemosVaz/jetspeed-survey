@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import PageHeader from '../../components/PageHeader'
-import InputRadio, {Question}  from '../../components/InputRadio'
+import InputRadio  from '../../components/InputRadio'
 import InputTextArea from '../../components/InputTextArea'
 
 import Loader from 'react-loader-spinner'
@@ -41,8 +41,6 @@ export default function Survey() {
     const [answers13, setAnswers13] = useState('')
     const [answers14, setAnswers14] = useState('')
     const [answers15, setAnswers15] = useState('')
-
-    const [isChecked, setIsChecked] = useState(false)
 
     const [isLoading, setIsloading] = useState(false)
 
