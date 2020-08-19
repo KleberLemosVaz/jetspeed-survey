@@ -100,7 +100,7 @@ export default function Survey() {
                                 color="#7C7C84"
                                 height={100}
                                 width={100}
-                                timeout={5000} //3 secs
+                                timeout={10000} //10 secs
 
                             />
                         </div>

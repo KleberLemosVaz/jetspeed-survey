@@ -13,7 +13,7 @@ export interface Question {
     type2?: string
 }
 
-interface InputRadioProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
+interface InputRadioProps extends TextareaHTMLAttributes<HTMLInputElement> {
     nextQuestion(): void;
     previousQuestion(): void
     question: Question
@@ -39,7 +39,7 @@ const InputRadio: React.FC<InputRadioProps> = ({ nextQuestion, previousQuestion,
                     {question.alternatives && question.alternatives.map(alternative => {
                         return (
                             <li className="option">
-                                <input type="radio" id={alternative} value={alternative} checked={ selected === alternative } name="option"/>
+                                <input type="radio" id={alternative} value={alternative} checked={ selected === alternative } name="option" {...rest} />
                                 <label htmlFor={alternative}>{alternative}</label>
                             </li>
                         )
