@@ -1,0 +1,63 @@
+#step-form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15vh;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    border-radius: 0.8rem;
+}
+
+#step-form fieldset {
+    border: none;
+    
+
+    padding: 3.6rem;
+    
+
+    width: 100%;
+    height: 60vh;
+    
+}
+
+#step-form fieldset h1 {
+    opacity: 0.30;
+}
+
+#step-form fieldset img {
+    color:red;
+}
+
+#step-form fieldset .options {
+    list-style: none;
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#step-form fieldset input {
+    margin-right: 0.8rem;
+    margin-top: 1.6rem;
+}
+
+#step-form fieldset label {
+    color:black;
+    font: 400 1.8rem Ubuntu ;
+}
+
+#step-form .form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.6rem;
+}
+
+#step-form .form-footer img {
+    padding: 3.6rem;
+}

@@ -1,0 +1,69 @@
+#step-form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15vh;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    border-radius: 0.8rem;
+}
+
+#step-form fieldset {
+    border: none;
+    padding: 3.6rem;
+
+    width: 100%;
+    height: 60vh;
+    
+}
+
+#step-form fieldset h1 {
+    opacity: 0.30;
+}
+
+#step-form fieldset .textarea-block {
+    position: relative;
+    margin-top: 1.4rem;
+
+}
+
+#step-form fieldset .textarea-block textarea {
+    width: 100%;
+    height: 16rem;
+    min-height: 8rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;;
+    background: white;
+    border: 1px solid grey;
+    outline:0;
+    resize: vertical;
+    padding: 1.2 1.2rem;
+    font: 400 1.6rem Ubuntu ;
+}
+
+.textarea-block:focus-within::after{
+    width: calc(100% - 3.2rem) ;
+    height: 2px;
+    content: '';
+    background: red;
+    position: absolute;
+    left:1.6rem;
+    right:1.6rem;
+    bottom: 7px;
+}
+
+#step-form .form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.6rem;
+}
+
+#step-form .form-footer img {
+    padding: 3.6rem;
+}

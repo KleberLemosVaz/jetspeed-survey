@@ -1,0 +1,12 @@
+#survey-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+#survey-page header img {
+    height: 2.4rem;
+}
+
+.loading {
+    margin-top: 1.6rem;
+}

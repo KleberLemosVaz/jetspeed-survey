@@ -6,6 +6,7 @@ import workingImg from '../../assets/working-remotely.svg'
 
 import './styles.css'
 
+
 export default function Landing() {
     return (
         <div id="landing-page"  >
@@ -18,8 +19,8 @@ export default function Landing() {
 
                 <div className="content-container">
                     <h1>PesquisaOnline</h1>
-                    <h3>O covid-19 transformou o dia a dia em nossa empresa. O home-office começou a fazer parte da nossa vida. Estamos realizando uma pesquisa para avaliar o impacto dessa nova experiência com nossos colaboradores.</h3>
-                    <Link to="/survey">
+                    <h3>Você está sendo convidado a preencher uma pesquisa de opinião interna dos colaboradores da JETSPEED sobre o período de home office.</h3>
+                    <Link to="/enunciado">
                         <button>Responder Pesquisa</button>
                     </Link>
                 </div>
