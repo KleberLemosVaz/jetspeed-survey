@@ -21,7 +21,7 @@ const InputTextArea: React.FC<TextareaProps> = ({ question, nextQuestion, checke
             <fieldset>
                 <div className="textarea-block">
                     <label htmlFor="question">
-                        <h2>{question.number}</h2>
+                        <h2>{question.number}.</h2>
                         <h3>{question.question}</h3>
                     </label>
                     <textarea id="question" value={checked} {...rest} />
